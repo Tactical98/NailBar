@@ -9,6 +9,7 @@
             Width :1347px;
             height: 107px;
             display: flex;
+            // position: sticky;
             .logo{
                 padding-top: 37px ;
                 padding-left: 182px ;
@@ -18,13 +19,10 @@
             }
             .Nav2{
                 text-decoration: none;
-                // justify-content: space-between;
                 margin-top: 48px;
 
                 .li{
                    margin-left: 140px;
-                   
-                //    justify-content: space-between;
                    color: white;
                    text-decoration: none;
                  }
@@ -79,7 +77,7 @@
                 }
             }
         }
-        .service{
+        #service{
             margin-top: 20px;
             font-size: 48px;
             font-weight: 700px;
@@ -87,7 +85,7 @@
         }
         .myimg{
             display: flex;
-            margin: 10px;
+            margin: 10px 10px 40px 10px;
             justify-content: space-between;
             .myimg1{
                 .nail{
@@ -121,9 +119,10 @@
                 }
             }      
         }
-        .review{
+        #review{
+
             display: flex;
-            margin-top: 80px;
+            margin-top: 130px;
             .review1{
                 .our{
                     font-weight: 700;
@@ -171,7 +170,7 @@
                 }
             }
         }
-        .contact{
+        #contact{
             margin-top: 140px;
             .tact{
                 font-size: 48px;
@@ -221,46 +220,186 @@
             background-color: #DB5ACE;
             // margin-top: 120px;
             height: 582px;
-            margin: 120px 20px;
+            margin: 120px 20px 50px 20px;
             .team{
                 font-size: 48px;
                 font-weight: 700;
                 margin-left: 32px;
                 padding-top: 20px;               
             }
-           
+            .grid-container{
+                display: flex;
+                 padding-left: 40px;
+                margin-top: 50px;
+                .grid-container1{
+                    margin-left: 30px;
+                    .ann{
+                        font-size: 36px;
+                        font-weight: 400;
+                        text-align: center;
+                        margin-top: 5px;
+
+                    }
+                    .nap{
+                        text-align: center;
+                        font-size: 24px;
+
+                    }
+                    
+
+                }
+                .grid-container2{
+                    margin-left: 30px;
+                    .ann1{
+                        font-size: 36px;
+                        font-weight: 400;
+                        text-align: center;
+                        margin-top: 5px;
+
+                    }
+                    .nap1{
+                        text-align: center;
+                        font-size: 24px;
+
+                    }
+
+                }
+                .grid-container3{
+                    margin-left: 30px;
+                    .ann2{
+                        text-align: center;
+                        font-size: 36px;
+                        margin-top: 5px;
+                        font-weight: 400;
+                    }
+                    .nap2{
+                        text-align: center;
+                        font-size: 24px;
+
+                    }
+
+                }
+                .grid-container4{
+                    margin-left: 20px;
+                    .ann3{
+                        text-align: center;
+                        font-size: 36px;
+                        margin-top: 5px;
+                        font-weight: 400;
+                    }
+                    .nap3{
+                        text-align: center;
+                        font-size: 24px;
+                    }
+                }
+            }
 
         }
         .footer{
             background-color: #6C2966;
             .foot{
                 display: flex;
-                margin-left: 150px;
-                // margin: 0px 71px 0px 230px;
+                margin-left: 107px;
                 padding: 40px;
                 .foot1{
                     color: white;
-                    margin-right: 100px;
+                    margin-right: 150px ;
+                    font-size: 25px;
+                    font-weight: 400;
                     .foote1{
-                        // color: white;
-                        font-size: 48px;
+                        font-size: 58px;
 
                     }
                 }
                 .foot2{
                     color: white;
-                    margin-right: 100px;
+                    margin-right: 150px;
+                    .foote2{
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                    .foote2a{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                    .foot2b{
+                        font-size: 25px;
+                        font-weight: 400;
+
+                    }
+                    .foot2c{
+                        font-size: 25px;
+                        font-weight: 400;
+
+                    }
+                    
                 }
                 .foot3{
                     color: white;
-                    margin-right: 100px;
+                    margin-right: 150px;
+                    .foote3a{
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                    .foote3b{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                    .foote3c{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                    .foote3d{
+                        font-size: 25px;
+                    }
                 }
                 .foot4{
                     color: white;
+                    .foot4a{
+                        font-size: 28px;
+                        font-weight: 700;
+                    }
+                    .foot4b{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                    .foot4c{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
+                    .foot4e{
+                        font-size: 25px;
+                        font-weight: 400;
+                    }
                 }
             }
         }
         .zon{
-            margin-left: 40px;
+            width: 1199px;
+            margin-left: 150px;
+        }
+        .pip{
+            display: flex;
+            padding-left: 150px;
+            padding: 20px 10px 30px 150px;
+            .privacy{
+                color: white;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            .term{
+                color: white;
+                padding-left: 270px;
+                font-size: 24px;
+                font-weight: 700;
+
+            }
+            .lux2{
+                color: white;
+                padding-left: 270px;
+                font-size: 24px;
+                font-weight: 700;
+
+            }
         }
     }

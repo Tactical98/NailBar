@@ -70,7 +70,7 @@
   left: 239px;
   top: 263px;
 }
-.beauty .service {
+.beauty #service {
   margin-top: 20px;
   font-size: 48px;
   font-weight: 700px;
@@ -78,7 +78,7 @@
 }
 .beauty .myimg {
   display: flex;
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   justify-content: space-between;
 }
 .beauty .myimg .myimg1 .nail {
@@ -105,38 +105,38 @@
   font-size: 24px;
   font-weight: 400;
 }
-.beauty .review {
+.beauty #review {
   display: flex;
-  margin-top: 80px;
+  margin-top: 130px;
 }
-.beauty .review .review1 .our {
+.beauty #review .review1 .our {
   font-weight: 700;
   font-size: 48px;
   margin-left: 20px;
 }
-.beauty .review .review1 .love {
+.beauty #review .review1 .love {
   margin-top: 34px;
   font-size: 24px;
   font-weight: 400;
   margin-left: 20px;
 }
-.beauty .review .review1 .sam {
+.beauty #review .review1 .sam {
   font-size: 36px;
   margin-top: 29px;
   font-weight: 400;
   margin-left: 35px;
 }
-.beauty .review .step {
+.beauty #review .step {
   position: relative;
 }
-.beauty .review .step .src1 {
+.beauty #review .step .src1 {
   position: absolute;
   left: 270px;
   z-index: 1;
   width: 300px;
   height: 180px;
 }
-.beauty .review .step .src2 {
+.beauty #review .step .src2 {
   position: absolute;
   left: 360px;
   top: 60px;
@@ -144,7 +144,7 @@
   height: 270px;
   z-index: 3;
 }
-.beauty .review .step .src3 {
+.beauty #review .step .src3 {
   position: absolute;
   left: 530px;
   top: 200px;
@@ -152,25 +152,25 @@
   height: 170px;
   z-index: 1;
 }
-.beauty .contact {
+.beauty #contact {
   margin-top: 140px;
 }
-.beauty .contact .tact {
+.beauty #contact .tact {
   font-size: 48px;
   font-weight: 700;
   margin-left: 20px;
 }
-.beauty .contact .oop {
+.beauty #contact .oop {
   margin: 40px 0px 0px 400px;
 }
-.beauty .contact .oop .form {
+.beauty #contact .oop .form {
   width: 550px;
   height: 50px;
   border-width: 3px;
   border-color: #6C2966;
   padding-left: 20px;
 }
-.beauty .contact .oop .form1 {
+.beauty #contact .oop .form1 {
   width: 550px;
   height: 50px;
   margin-top: 20px;
@@ -178,7 +178,7 @@
   border-color: #6C2966;
   padding-left: 20px;
 }
-.beauty .contact .oop .form2 {
+.beauty #contact .oop .form2 {
   width: 550px;
   height: 50px;
   padding-left: 30px;
@@ -187,7 +187,7 @@
   border-color: #6C2966;
   padding-left: 20px;
 }
-.beauty .contact .oop .form3 {
+.beauty #contact .oop .form3 {
   margin-top: 20px;
   border-color: #6C2966;
   border-width: 3px;
@@ -199,7 +199,7 @@
 .beauty .grid {
   background-color: #DB5ACE;
   height: 582px;
-  margin: 120px 20px;
+  margin: 120px 20px 50px 20px;
 }
 .beauty .grid .team {
   font-size: 48px;
@@ -207,32 +207,161 @@
   margin-left: 32px;
   padding-top: 20px;
 }
+.beauty .grid .grid-container {
+  display: flex;
+  padding-left: 40px;
+  margin-top: 50px;
+}
+.beauty .grid .grid-container .grid-container1 {
+  margin-left: 30px;
+}
+.beauty .grid .grid-container .grid-container1 .ann {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+.beauty .grid .grid-container .grid-container1 .nap {
+  text-align: center;
+  font-size: 24px;
+}
+.beauty .grid .grid-container .grid-container2 {
+  margin-left: 30px;
+}
+.beauty .grid .grid-container .grid-container2 .ann1 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5px;
+}
+.beauty .grid .grid-container .grid-container2 .nap1 {
+  text-align: center;
+  font-size: 24px;
+}
+.beauty .grid .grid-container .grid-container3 {
+  margin-left: 30px;
+}
+.beauty .grid .grid-container .grid-container3 .ann2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.beauty .grid .grid-container .grid-container3 .nap2 {
+  text-align: center;
+  font-size: 24px;
+}
+.beauty .grid .grid-container .grid-container4 {
+  margin-left: 20px;
+}
+.beauty .grid .grid-container .grid-container4 .ann3 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+  font-weight: 400;
+}
+.beauty .grid .grid-container .grid-container4 .nap3 {
+  text-align: center;
+  font-size: 24px;
+}
 .beauty .footer {
   background-color: #6C2966;
 }
 .beauty .footer .foot {
   display: flex;
-  margin-left: 150px;
+  margin-left: 107px;
   padding: 40px;
 }
 .beauty .footer .foot .foot1 {
   color: white;
-  margin-right: 100px;
+  margin-right: 150px;
+  font-size: 25px;
+  font-weight: 400;
 }
 .beauty .footer .foot .foot1 .foote1 {
-  font-size: 48px;
+  font-size: 58px;
 }
 .beauty .footer .foot .foot2 {
   color: white;
-  margin-right: 100px;
+  margin-right: 150px;
+}
+.beauty .footer .foot .foot2 .foote2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.beauty .footer .foot .foot2 .foote2a {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot2 .foot2b {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot2 .foot2c {
+  font-size: 25px;
+  font-weight: 400;
 }
 .beauty .footer .foot .foot3 {
   color: white;
-  margin-right: 100px;
+  margin-right: 150px;
+}
+.beauty .footer .foot .foot3 .foote3a {
+  font-size: 28px;
+  font-weight: 700;
+}
+.beauty .footer .foot .foot3 .foote3b {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot3 .foote3c {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot3 .foote3d {
+  font-size: 25px;
 }
 .beauty .footer .foot .foot4 {
   color: white;
 }
+.beauty .footer .foot .foot4 .foot4a {
+  font-size: 28px;
+  font-weight: 700;
+}
+.beauty .footer .foot .foot4 .foot4b {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot4 .foot4c {
+  font-size: 25px;
+  font-weight: 400;
+}
+.beauty .footer .foot .foot4 .foot4e {
+  font-size: 25px;
+  font-weight: 400;
+}
 .beauty .zon {
-  margin-left: 40px;
+  width: 1199px;
+  margin-left: 150px;
+}
+.beauty .pip {
+  display: flex;
+  padding-left: 150px;
+  padding: 20px 10px 30px 150px;
+}
+.beauty .pip .privacy {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.beauty .pip .term {
+  color: white;
+  padding-left: 270px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.beauty .pip .lux2 {
+  color: white;
+  padding-left: 270px;
+  font-size: 24px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
